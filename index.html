@@ -4,27 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Martin Dubek - CV</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&
+  https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap
   <style>
     body {
-      font-family: 'Lato', sans-serif;
-      background: #f4f4f4;
+      font-family: 'Roboto', sans-serif;
+      background-color: #eef2f5;
       margin: 0;
-      padding: 0;
-      color: #333;
+      padding: 20px;
     }
     .container {
-      max-width: 960px;
-      margin: 40px auto;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
       background: #fff;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
     }
     h1, h2, h3 {
       color: #2c3e50;
-    }
-    .section {
-      margin-bottom: 30px;
+      margin-top: 0;
     }
     .section-title {
       border-bottom: 2px solid #3498db;
@@ -46,21 +47,23 @@
 </head>
 <body>
   <div class="container">
-    <h1>Martin Dubek</h1>
-    <p><strong>Senior Manager, Sales Planning & Strategy</strong><br>Remote – Slovakia, Bratislavsky kraj</p>
+    <div class="card">
+      <h1>Martin Dubek</h1>
+      <p><strong>Senior Manager, Sales Planning & Strategy</strong><br>Remote – Slovakia, Bratislavsky kraj</p>
+    </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Professional Summary</h2>
       <p>Finance and business operations leader with 15 years at Dell Technologies, progressing from analyst roles in Slovakia and Singapore to senior leadership. Proven track record in managing multi-billion-dollar P&Ls, driving profitable growth, cost optimization, and talent development across international teams.</p>
       <p>Skilled in building high-performing teams, mentoring future leaders, and simplifying complex financial processes. Program Manager of the EMEA Finance Rotation Program. Experienced in multicultural environments and active in knowledge-sharing through university lectures and industry forums.</p>
     </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Experience</h2>
       <h3>Dell Technologies</h3>
       <p class="date">July 2010 – Present</p>
 
-      <h4 class="job-title">Financial Senior Manager (Global Business Operations)</h4>
+      <div class="job-title">Financial Senior Manager (Global Business Operations)</div>
       <p class="date">Feb 2023 – Present</p>
       <ul>
         <li>Lead CEEMETA finance team of 18 professionals</li>
@@ -69,14 +72,14 @@
         <li>Core member of global teams on Russian business risk and AI Server compliance</li>
       </ul>
 
-      <h4 class="job-title">Financial Consultant (Global Business Operations)</h4>
+      <div class="job-title">Financial Consultant (Global Business Operations)</div>
       <p class="date">Nov 2019 – Feb 2023</p>
       <ul>
         <li>Controller and acting GBO Lead for Central and Northern Europe</li>
         <li>Managed $3B P&L, led governance framework implementation</li>
       </ul>
 
-      <h4 class="job-title">Financial Consultant (Commercial Finance)</h4>
+      <div class="job-title">Financial Consultant (Commercial Finance)</div>
       <p class="date">Apr 2017 – Nov 2019</p>
       <ul>
         <li>Controller for Italy and Sweden</li>
@@ -84,15 +87,15 @@
         <li>Recovered $13M in overdue accounts</li>
       </ul>
 
-      <!-- Additional roles omitted for brevity but can be added similarly -->
+      <!-- Additional roles can be added similarly -->
     </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Education</h2>
       <p><strong>Masaryk University, Brno, Czech Republic</strong><br>Faculty of Economics and Administration<br><em>Sept 2005 – June 2010</em><br>Thesis: Quality management in the food industry (ISO 9001:2008)</p>
     </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Languages</h2>
       <ul>
         <li>Slovak – Native</li>
@@ -102,7 +105,7 @@
       </ul>
     </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Skills & Competencies</h2>
       <ul>
         <li>AI Competencies</li>
@@ -112,7 +115,7 @@
       </ul>
     </div>
 
-    <div class="section">
+    <div class="card">
       <h2 class="section-title">Activities & Interests</h2>
       <ul>
         <li>Program Manager – EMEA Finance Rotation Program</li>
